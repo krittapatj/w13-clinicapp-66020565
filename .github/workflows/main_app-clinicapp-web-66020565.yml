@@ -33,7 +33,7 @@ jobs:
       - name: Build React Vite app
         working-directory: ./web
         env:
-          VITE_API_BASE: https://app-clinicapp-api-66020565.azurewebsites.net
+          VITE_API_BASE: https://app-clinicapp-api-66020565-bkdhd8amdtbxazar.southeastasia-01.azurewebsites.net/
         run: npm run build
 
       - name: Upload frontend artifact
